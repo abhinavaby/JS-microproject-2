@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(abstract_low_poly_triangular_background.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+}
+#login{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+input{
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+   
+    border: 1.5px solid black;
+    border-radius: 12px;
+    width: 200px;
+    background-color: transparent;
+    
+}
+input:hover{
+    border: 1.5px solid rgb(6, 6, 6);
+    border-radius: 18px;
+    transition: 0.5s ease-in-out;
+}
+button{
+    padding: 10px 20px;
+    border: 1.5px solid black;
+    border-radius: 12px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 150px;
+    background-color: rgba(229, 240, 142, 0.759);
+}
+button:hover{
+    border: 1.5px solid rgb(6, 6, 6);
+    border-radius: 18px;
+    transition: 0.5s ease-in-out;
+    background-color: rgb(153, 203, 153);
+}
+h1{
+    margin-bottom: 40px;
+    color: rgb(103, 158, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(6, 6, 6);
+
+}
+
